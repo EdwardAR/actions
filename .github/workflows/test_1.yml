@@ -3,10 +3,10 @@ name: Hola Mundo
 on: 
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   hola:
@@ -24,7 +24,6 @@ jobs:
 
       - name: read file
         run: cat hola.txt
-
 
   other:
     runs-on: ubuntu-latest
